@@ -1,0 +1,22 @@
+groups:
+  - name: monitoring-alerts
+
+    rules:
+
+      - alert: PrometheusTargetDown
+        expr: up == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Monitoring target is down"
+          description: "The monitored target has been unavailable for more than 1 minute."
+
+      - alert: HighScrapeDuration
+        expr: scrape_duration_seconds > 1
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High scrape duration"
+          description: "Prometheus is taking more than 1 second to collect metrics."
