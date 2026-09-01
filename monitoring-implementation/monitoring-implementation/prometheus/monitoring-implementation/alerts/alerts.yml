@@ -19,4 +19,4 @@ groups:
           severity: warning
         annotations:
           summary: "High scrape duration"
-          description: "Prometheus is taking more than 1 second to collect metrics."
+          # description: "Prometheus is taking more than 1 second to collect metrics."
