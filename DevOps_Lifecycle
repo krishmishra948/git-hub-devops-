@@ -1,0 +1,16 @@
+### DevOps Lifecycle
+
+The **DevOps lifecycle** is a continuous process that combines **development (Dev)** and **operations (Ops)** to deliver software faster and more reliably.
+
+**Main stages:**
+
+1. **Plan** – Define requirements and plan the project.
+2. **Code** – Developers write and manage the source code.
+3. **Build** – Convert the source code into a working application.
+4. **Test** – Automatically test the software to find bugs.
+5. **Release** – Prepare the tested software for deployment.
+6. **Deploy** – Make the application available to users.
+7. **Operate** – Manage and maintain the application in production.
+8. **Monitor** – Continuously monitor performance, security, and errors.
+
+The cycle is **continuous**, with feedback from monitoring used to improve the next development cycle.
